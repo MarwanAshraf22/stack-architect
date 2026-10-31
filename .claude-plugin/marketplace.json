@@ -1,0 +1,25 @@
+{
+  "name": "stack-architect",
+  "owner": {
+    "name": "Marwan Ashraf"
+  },
+  "metadata": {
+    "description": "Claude skill that picks the right tech stack before you start building",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "stack-architect",
+      "description": "Choose the right tech stack before writing code: frontend, backend, database, auth, hosting, CI/CD, backups, security and cost, with a full Stack Decision Record.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"],
+      "author": { "name": "Marwan Ashraf" },
+      "homepage": "https://github.com/MarwanAshraf22/stack-architect",
+      "repository": "https://github.com/MarwanAshraf22/stack-architect",
+      "license": "MIT",
+      "keywords": ["tech-stack", "architecture", "planning", "skills"]
+    }
+  ]
+}
