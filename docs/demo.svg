@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 820 520" width="820" height="520" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <style>
+    .l { opacity: 0; animation: show 0.4s ease forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .u { fill: #7dd3fc; } .c { fill: #e5e7eb; } .d { fill: #9ca3af; } .g { fill: #86efac; } .y { fill: #fde68a; } .h { fill: #f9a8d4; font-weight: 700; }
+    @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1; } }
+  </style>
+  <rect width="820" height="520" rx="12" fill="#0b1020"/>
+  <rect width="820" height="36" rx="12" fill="#1f2937"/>
+  <rect y="24" width="820" height="12" fill="#1f2937"/>
+  <circle cx="22" cy="18" r="6" fill="#f87171"/><circle cx="42" cy="18" r="6" fill="#fbbf24"/><circle cx="62" cy="18" r="6" fill="#34d399"/>
+  <text x="410" y="23" text-anchor="middle" class="d">Claude · stack-architect</text>
+
+  <text x="24" y="70" class="l u" style="animation-delay:0.3s">You  ›  I want a booking SaaS for car washes: staff logins, online</text>
+  <text x="24" y="90" class="l u" style="animation-delay:0.5s">        payments, WhatsApp reminders. Solo dev, &lt;$50/month, UAE users.</text>
+
+  <text x="24" y="126" class="l c" style="animation-delay:1.4s">Claude › Archetype: multi-tenant SaaS + booking system. Two questions:</text>
+  <text x="24" y="146" class="l c" style="animation-delay:1.8s">         1. Do customers need accounts, or guest checkout + phone OTP?</text>
+  <text x="24" y="166" class="l c" style="animation-delay:2.1s">         2. Arabic + English, or English only?</text>
+  <text x="24" y="196" class="l u" style="animation-delay:2.9s">You  ›  Guest + OTP. Both languages.</text>
+
+  <text x="24" y="232" class="l h" style="animation-delay:3.7s">Stack Decision Record: WashBook</text>
+  <text x="24" y="260" class="l g" style="animation-delay:4.1s">  Frontend   TanStack Start + Tailwind + shadcn/ui</text>
+  <text x="24" y="280" class="l g" style="animation-delay:4.4s">  Database   Postgres on the same VPS (~1 ms) + Drizzle</text>
+  <text x="24" y="300" class="l g" style="animation-delay:4.7s">  Booking    EXCLUDE constraint → no double bookings, guaranteed</text>
+  <text x="24" y="320" class="l g" style="animation-delay:5.0s">  Auth       Better Auth · orgs = tenants · phone OTP</text>
+  <text x="24" y="340" class="l g" style="animation-delay:5.3s">  Payments   Hosted checkout · verified webhooks</text>
+  <text x="24" y="360" class="l g" style="animation-delay:5.6s">  Hosting    VPS + Docker + Caddy behind Cloudflare</text>
+  <text x="24" y="380" class="l g" style="animation-delay:5.9s">  Backups    pgBackRest → R2, PITR, monthly restore test</text>
+  <text x="24" y="400" class="l g" style="animation-delay:6.2s">  Monitoring Sentry + Uptime Kuma + backup heartbeats</text>
+  <text x="24" y="436" class="l y" style="animation-delay:6.8s">  Cost ≈ $25–35/month · Scaling path · Security checklist · Week-1 plan</text>
+  <text x="24" y="476" class="l d" style="animation-delay:7.4s">Each choice: why + the alternative. Say "scaffold it" to get the code.</text>
+</svg>
